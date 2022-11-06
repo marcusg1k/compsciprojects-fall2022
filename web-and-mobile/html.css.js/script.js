@@ -1,7 +1,7 @@
 window.addEventListener("load", function ()
 {
-let clickedCounterElement = document.getElementById("click-counter"); 
-let clickButtonElement = document.getElementById("click-button")
+let clickedCounterElement = document.getElementById("clickcounter");
+let clickButtonElement = document.getElementById("clickbutton");
 
 let counter = 0;
 
@@ -14,5 +14,5 @@ let clickButtonFunction = function ()
 };
 
   
-clickedButtonElement.addEventListener("click", clickButtonfunction);
+clickButtonElement.addEventListener("click", clickButtonFunction);
 });
